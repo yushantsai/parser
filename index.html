@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Parser Beta ver1.0</title>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lexicon.js_"></script>
+	<script type="text/javascript" src="js/lexer.js"></script>
+	<script type="text/javascript" src="js/POSTagger.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>		
+	<div class="navbar">
+		<div class="container">
+			<div class="navbar-inner">
+				<ul class="nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li class="divider-vertical"><a href="#">Link1</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+    <div class="container">
+		<dl>
+			<dt>Parser1: jspos</dt>
+			<dd>Using lexer to split a text string into words and tag those tokens.</dd>
+		</dl>
+      <form 	id="searchForm" class="form-inline">
+        <div class="form-group">
+          <textarea class="form-control status-box" placeholder=" ... "></textarea>
+		  <span class="resetForm"><i class="icon-remove"></i></span>
+        </div>		
+     </form>
+	 <button  class="btn pull-right" disabled>Post</button>
+    </div>
+	 <div class="container">
+		<hr>
+		<ul class="posts">
+		</ul>
+	</div>
+    <div id="footer">
+    	<hr>
+    	<div class="container">
+        	<p class="text-right muted credit">Designed by <a class="col-md-6" href="#">yushantsai@Github</a></p>
+			<p class="text-right muted credit"><a class="col-md-6" href="http://glyphicons.com/">Glyphicons Free</a> licensed</p>
+        </div>
+	</div>
+</body>
+</html>

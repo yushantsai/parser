@@ -1,0 +1,12 @@
+.status-box{
+	width:96%;
+	height:100px;
+	resize:none;
+	padding-right:40px;
+}
+.resetForm{
+	z-index:2;
+	position:relative;
+	left:920px;
+	top:-100px;
+}
